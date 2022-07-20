@@ -1,14 +1,12 @@
-import resolve from '@rollup/plugin-node-resolve';
+import resolve from "@rollup/plugin-node-resolve";
 
 export default {
-  input: 'ifc.js',
+  input: "./public/ifc.js",
   output: [
     {
-      format: 'esm',
-      file: 'ifc.bun.js'
+      format: "esm",
+      file: "ifc.bun.js",
     },
   ],
-  plugins: [
-    resolve(),
-  ]
+  plugins: [resolve()],
 };
