@@ -1,0 +1,22 @@
+{
+  "name": "ifc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ifc.js",
+  "scripts": {
+    "build": "rollup -c ./rollup.config.js",
+    "watch": "rollup -w -c ./rollup.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "three": "^0.135.0",
+    "web-ifc-three": "^0.0.118",
+    "ws": "^8.8.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.77.0"
+  }
+}
